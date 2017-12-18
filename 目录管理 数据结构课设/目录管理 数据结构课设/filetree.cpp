@@ -248,7 +248,7 @@ void filetree::Traverser(file * p)
 	Traverser(p->brother);//显示兄弟节点
 }
 
-void filetree::information(file * p)
+void filetree::information(file * p)                      //显示文件夹信息
 {
 	printf("name:%s\n", p->name);
 	if (p->filetype[0] != '\0')
